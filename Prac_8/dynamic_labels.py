@@ -8,7 +8,7 @@ class MainApp(App):
         self.title = "Dynamic Labels"
         self.root = Builder.load_file('dynamic_labels.kv')
 
-        names = ["Muchun", "David", "Lewis", "Bob", "Alice"]
+        names = ["Thien", "Azlan", "S", "R", "V"]
 
         for name in names:
             label = Label(text=name)
